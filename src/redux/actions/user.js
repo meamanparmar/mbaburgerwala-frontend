@@ -13,7 +13,7 @@ export const loadUser = () => async (dispatch) => {
     const data=()=>{
       axios.get(`${server}/me`)
       .then(res=>{
-        console.log(res);
+        console.log(res.data);
       }).catch(err=>{
         console.log(err);
       })
