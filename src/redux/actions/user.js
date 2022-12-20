@@ -10,6 +10,11 @@ export const loadUser = () => async (dispatch) => {
     const { data } = await axios.get(`${server}/me`, {
       withCredentials: true,
     });
+    axios({
+      headers: {
+        'Content-Type': 'text/plain;charset=utf-8',
+    },
+    })
 
     dispatch({
       type: "loadUserSuccess",

@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import axios from "axios";
+import { server } from "./redux/store";
 import { useEffect,useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loadUser } from "./redux/actions/user";
@@ -61,7 +62,7 @@ function App() {
   useEffect(() => {
     async function fetchNews() {
       try {
-        const url = "https://mbaburgerwala.onrender.com/googlelogin";
+        const url = `${server}/me`;
         const response = await axios.get(url);
         console.log(response);
         setNews(response.data);
