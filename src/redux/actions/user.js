@@ -7,17 +7,10 @@ export const loadUser = () => async (dispatch) => {
       type: "loadUserRequest",
     });
 
-    // const { data } = await axios.get(`${server}/me`, {
-    //   withCredentials: true,
-    // });
-    const data=()=>{
-      axios.get(`${server}/me`)
-      .then(res=>{
-        console.log(res.data);
-      }).catch(err=>{
-        console.log(err);
-      })
-    }
+    const { data } = await axios.get(`${server}/me`, {
+      withCredentials: true,
+    });
+
     dispatch({
       type: "loadUserSuccess",
       payload: data.user,

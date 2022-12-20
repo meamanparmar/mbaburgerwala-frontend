@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import { useEffect } from "react";
+import axios from "axios";
+import { useEffect,useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { loadUser } from "./redux/actions/user";
 import toast, { Toaster } from "react-hot-toast";
@@ -53,6 +53,25 @@ function App() {
   useEffect(() => {
     dispatch(loadUser());
   }, [dispatch]);
+
+   const [category, setCategory] = useState("general");
+  const [news, setNews] = useState([]);
+
+  // fetch news everytime the category changes
+  useEffect(() => {
+    async function fetchNews() {
+      try {
+        const url = "https://mbaburgerwala.onrender.com/googlelogin";
+        const response = await axios.get(url);
+        console.log(response);
+        setNews(response.data);
+      } catch (errorWhileFetchingNews) {
+        console.log("error while fetching news", errorWhileFetchingNews);
+      }
+    }
+
+    fetchNews();
+  }, [category]);
 
    useEffect(() => {
      if (error) {
