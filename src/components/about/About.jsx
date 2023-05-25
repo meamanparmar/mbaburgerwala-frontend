@@ -11,7 +11,7 @@ const About = () => {
         <article>
             <h4>MBA Burger Wala</h4>
             <p>We are MBA Burger Wala. The place where you can find most tastiest burger ever.</p>
-            <p>Explore the various types of food and burgers . click below to see</p>
+            <p>Explore the diverse types of food and burgers . click below to see</p>
             <Link to="/" >
                 <RiFindReplaceLine/>
             </Link>
