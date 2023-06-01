@@ -10,7 +10,7 @@ const About = () => {
         <h1>About Us</h1>
         <article>
             <h4>MBA Burger Wala</h4>
-            <p>We are MBA Burger Wala. The place where you can find most tastiest burger ever.</p>
+            <p>We the MBA Burger Wala. The place where you can find most tastiest burger ever.</p>
             <p>Explore the diverse types of food and burgers . click below to see</p>
             <Link to="/" >
                 <RiFindReplaceLine/>
