@@ -10,7 +10,7 @@ const NotFound = () => {
             <h1>404</h1>
 
         </div>
-        <p>Page Not found , click below to land on home page</p>
+        <p>Page Not found , click below to jump on home page</p>
         <Link to="/" >Go to Home</Link>
     </main>
 </section>
