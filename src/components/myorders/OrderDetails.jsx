@@ -70,7 +70,7 @@ const OrderDetails = () => {
             <b>Tax Charges</b>₹{150}
           </p>
           <p>
-            <b>Total Amout </b>₹{214 + 200 + 150}
+            <b>Total Amount </b>₹{214 + 200 + 150}
           </p>
         </div>
 
