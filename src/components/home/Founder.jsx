@@ -18,7 +18,7 @@ const Founder = () => {
         <img src={me} alt="Founder" height={300} width={200} />
         <h3>Aman Parmar</h3>
         <p>
-          Hey , Everyone I am Aman, the founder of MBA burger wala .
+          Hello , Everyone I am Aman, the founder of MBA burger wala .
           <br />
           Our aim is to take you through the most delicious burger.
         </p>
