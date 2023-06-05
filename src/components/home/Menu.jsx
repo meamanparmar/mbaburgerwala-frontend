@@ -35,7 +35,7 @@ const Menu = () => {
          itemnum={3} 
          burgerSrc={burger3}
          price={400}
-         title="cheese Burger and fries"
+         title="cheese Burger with fries"
          handler={addToCartHandler} 
          delay={.8}
         />
