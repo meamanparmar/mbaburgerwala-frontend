@@ -20,7 +20,7 @@ const Founder = () => {
         <p>
           Hello , Everyone I am Aman, the founder of MBA burger wala .
           <br />
-          Our aim is to take you through the most delicious burger.
+          Our vision is to take you through the most delicious burger.
         </p>
       </motion.div>
     </section>
