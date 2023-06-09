@@ -52,7 +52,7 @@ const Contact = () => {
         }}
         
         >
-            <img src={burger} alt="burger" />
+            <img src={burger} alt="burger is healthy" />
         </motion.div>
     </motion.div>
   </section>
