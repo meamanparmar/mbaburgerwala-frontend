@@ -23,7 +23,7 @@ const About = () => {
                     <img src={me} alt="Founder" />
                     <h3>Aman</h3>
                 </div>
-                <p>I am Aman , the founder of MBA burger wala . Affiliated to best taste...</p>
+                <p>I am Aman Parmar , the founder of MBA burger wala . Affiliated to best taste...</p>
             </article>
         </div>
     </main>
