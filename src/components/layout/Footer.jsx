@@ -6,7 +6,7 @@ const Footer = () => {
         <h2>MBA Burger Wala</h2>
         <p>We are trying to give you the best taste possible</p>
         <br />
-        <em>We give attention to genuine feedback</em>
+        <em>We give attention on genuine feedback</em>
         <strong>All right reserved @mbaburgerwala</strong>
 
     </div>
