@@ -15,7 +15,7 @@ const Contact = () => {
       delay:.2
     }}
     >
-        <h2>Contact us</h2>
+        <h2>Reach us</h2>
         <input type="text" placeholder='Name' />
         <input type="email" placeholder='Email'/>
         <textarea placeholder='Message....' cols="30" rows="10"></textarea>
