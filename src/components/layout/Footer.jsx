@@ -11,7 +11,7 @@ const Footer = () => {
 
     </div>
     <aside>
-        <h4>Follow us</h4>
+        <h4>Follow us on</h4>
         <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
             <AiFillYoutube/>
         </a>
