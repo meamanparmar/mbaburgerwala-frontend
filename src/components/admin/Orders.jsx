@@ -18,7 +18,7 @@ const Orders = () => {
                 <th>Status</th>
                 <th>Item Quantity</th>
                 <th>Amount</th>
-                <th>Payment Method</th>
+                <th>Method of Payment</th>
                 <th>User</th>
                 <th>Action</th>
             </tr>
