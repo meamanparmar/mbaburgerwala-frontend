@@ -26,7 +26,7 @@ const Cart = () => {
   <section className="cart">
     <main>
       <CartItem
-        title={"Cheese Burger"}
+        title={"Simple Cheese Burger"}
         img={burger1}
         value={0}
         increment={() => increment(1)}
